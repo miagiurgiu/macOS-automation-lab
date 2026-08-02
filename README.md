@@ -14,7 +14,7 @@ The AppleScript:
 3. Opens a new Terminal window.
 4. Returns the original shortcut input.
 
-### Setup
+### How to set it up
 
 1. Create a new shortcut in the macOS Shortcuts app.
 2. Add the **Run AppleScript** action.
