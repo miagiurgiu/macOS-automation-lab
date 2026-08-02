@@ -1,7 +1,7 @@
 # macOS-automation-lab
 A collection of small macOS automation projects built with AppleScript, Shortcuts, and Quick Actions.
 
-## Open Terminal Shortcut
+## 1. Open Terminal Shortcut
 
 A global keyboard shortcut that launches Terminal from anywhere in macOS.
 
@@ -22,7 +22,9 @@ The AppleScript:
 4. Enable **Use as Quick Action** and **Services Menu**.
 5. Click **Add Keyboard Shortcut** and select a key combination.
 
-## Next step
+## 2. Next step
 
 Extend the shortcut into a developer launcher that opens a project,
 activates its Python virtual environment and starts the application.
+
+to be continued
