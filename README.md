@@ -1,5 +1,5 @@
 #  macOS-automation-lab 
- A collection of small macOS automation projects built with AppleScript, Shortcuts, and Quick Actions.
+A collection of small macOS automation projects built with AppleScript, Shortcuts, and Quick Actions.
 
 ## 1. Open Terminal Shortcut
 
