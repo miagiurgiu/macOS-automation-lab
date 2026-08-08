@@ -1,7 +1,7 @@
 #  macOS-automation-lab 
 A collection of small macOS automation projects built with AppleScript, Shortcuts, and Quick Actions.
 
-## 1. Open Terminal Shortcut
+## 1. Open Terminal shortcut
 
 A global keyboard shortcut that launches Terminal from anywhere in macOS.
 
@@ -20,7 +20,26 @@ The AppleScript:
 2. Add the **Run AppleScript** action.
 3. Paste the code from `open-terminal/open-terminal.applescript`.
 4. Enable **Use as Quick Action** and **Services Menu**.
-5. Click **Add Keyboard Shortcut** and select a key combination.
+5. Click **Add Keyboard Shortcut** and select a key combination (mine is ⌘T)
+
+## 2. Open Github profile shortcut
+
+A global keyboard shortcut that launches my GitHub profile from anywhere in macOS.
+
+### How it works
+
+The AppleScript:
+
+1. Activates the Safari application.
+2. Opens the given location based on the link. 
+
+### How to set it up
+
+1. Create a new shortcut in the macOS Shortcuts app.
+2. Add the **Run AppleScript** action.
+3. Paste the code from `open-github-profile/open-github-profile.applescript`.
+4. Enable **Use as Quick Action** and **Services Menu**.
+5. Click **Add Keyboard Shortcut** and select a key combination (mine is ⌃⌥⌘G)
 
 ## 2. Next step
 
