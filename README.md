@@ -41,9 +41,25 @@ The AppleScript:
 4. Enable **Use as Quick Action** and **Services Menu**.
 5. Click **Add Keyboard Shortcut** and select a key combination (mine is ⌃⌥⌘G)
 
-## 2. Next step
+## 3. Open Waveform Generator Application
 
-Extend the shortcut into a developer launcher that opens a project,
-activates its Python virtual environment and starts the application.
+A global keyboard shortcut that launches a project, activates its Python virtual environment and starts the application.
 
-to be continued
+### How it works
+
+The AppleScript:
+
+1. Activates the Terminal application.
+2. Terminal runs the given shell command (Enter the WaveformGenerator project directory and, if that succeeds, use the project’s Python interpreter to run gui.py.)
+   - move into the project folder
+   - run the next command if the previous one succeeded (&&)
+   - move into python interpreter path used by the project
+   - gui.py is the python file being executed
+
+### How to set it up
+
+1. Create a new shortcut in the macOS Shortcuts app.
+2. Add the **Run AppleScript** action.
+3. Paste the code from `open-waveform-app/open-waveform-app.applescript`.
+4. Enable **Use as Quick Action** and **Services Menu**.
+5. Click **Add Keyboard Shortcut** and select a key combination (mine is ⌃⌥⌘W)
